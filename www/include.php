@@ -11,6 +11,14 @@ function top() {
     <script src="/bootstrap/js/bootstrap.min.js"></script>
   </head>
   <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=743342905682343";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
   <?php
 }
 
@@ -29,6 +37,25 @@ function bottom() {
   </body>
   </html>
   <?php
+}
+
+function shareButtons($text,$url) {
+?>
+<div style="display: inline-block">
+<div class="fb-like"
+  data-href="<?php print $url; ?>"
+  data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+</div>
+<div style="display: inline-block">
+<a class="twitter-share-button" href="https://twitter.com/share"
+  data-hashtags="reformact,cdnpoli"
+  data-via="TheReformAct"
+  data-text="<?php print $text; ?>"
+  data-url="<?php print $url; ?>"
+  data-lang="en">Tweet</a>
+</div>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<?php
 }
 
 ?>
