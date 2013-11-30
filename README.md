@@ -17,7 +17,7 @@ I say bullshit.
 Are you a "partisan"
 ====================
 
-Yes, but meaningful restoration of our Westminster Parliamentary system is really important.
+Yes, but I don't let it get in the way of good ideas. The Reform Act is a good idea. Let's make it happen.
 
 What can I do?
 ==============
