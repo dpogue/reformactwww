@@ -11,7 +11,7 @@ top();
 <h1>The #ReformAct</h1>
 
 <p>By all accounts the soon to be tabled Reform Act will go a long way to fixing the Canadian Parliament. This is a small website
-dedicated to seeing the bill get past.</p>
+dedicated to seeing the bill get passed.</p>
 
 <h3>Step One</h3>
 <p>
