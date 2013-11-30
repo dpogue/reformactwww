@@ -14,6 +14,12 @@ What do you say to party leaders wanting unchecked power?
 
 I say bullshit.
 
+Tell me about the bill
+======================
+
+Here's Andrew Coyne:
+http://fullcomment.nationalpost.com/2013/11/29/andrew-coyne-reform-act-bill-would-change-canadas-parliament-forever/
+
 What can I do?
 ==============
 
