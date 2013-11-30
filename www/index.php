@@ -5,14 +5,13 @@ include("include.php");
 top();
 ?>
 
-<img src="/thumb.jpg"/>
-
 <div class="abscenter" style="height: 600px; width: 600px; border: solid 1px #c0c0c0; border-radius: 10px; padding: 0px 40px;">
 <center>
 
 <h1>The #ReformAct</h1>
 
-<p class="lead">Let's make it happen.</p>
+<p>By all accounts the soon to be tabled Reform Act will go a long way to fixing the Canadian Parliament. This is a small website
+dedicated to seeing the bill get past.</p>
 
 <h3>Step One</h3>
 <p>
