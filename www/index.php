@@ -15,27 +15,24 @@ top();
 <h3>Step One</h3>
 <p>
 Read <a target="_blank" href="http://fullcomment.nationalpost.com/2013/11/29/andrew-coyne-reform-act-bill-would-change-canadas-parliament-forever/">Andrew Coyne's article about the Reform Act</a> to
-convince yourself the proposal has merit. Because it does.
-</p>
-<p>
-Now share it with your friends:
+convince yourself the proposal has merit. Because it does.  Now share it with your friends:
 </p>
 <?php shareButtons("Coyne: Reform Act bill would change Canada's parliament forever","http://fullcomment.nationalpost.com/2013/11/29/andrew-coyne-reform-act-bill-would-change-canadas-parliament-forever/"); ?>
 
-<h3>Step Two</h3>
-<p>
-Follow @TheReformAct. Once the bill is published (soon) there will be more advocacy to do.
-</p>
+<h3>Step Two: Follow @TheReformAct</h3>
 <a href="https://twitter.com/TheReformAct" class="twitter-follow-button" 
   data-show-count="true"
   data-lang="en">Follow @TheReformAct</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<h3>Step Three</h3>
-<p>
-Please share this page so more people can hear about the proposed Reform Act. Only pressure from regular Canadians will force all of the parties to support the bill.
-</p>
+<h3>Step Three: Share this page!</h3>
 <?php shareButtons("I'm liking what I've hear about the Reform Act so far.","http://ReformAct.ca"); ?>
+
+<h3>Help-out</h3>
+This website could be so much better than my overnight solo effort. Think the Reform Act is important? Want to help 
+make this website better and help spread the word to regular Canadians?
+Head over to <a href="https://github.com/kevinodotnet/reformactwww">the GitHub page</a> to contribute, or 
+<a href="mailto:kevino@kevino.net?Subject=ReformAct.ca">you can email me directly</a>.
 
 
 </center>
@@ -43,7 +40,6 @@ Please share this page so more people can hear about the proposed Reform Act. On
 
 
 <!--
-Step one: <a href="https://github.com/kevinodotnet/reformactwww">build-out this website</a>.
 -->
 
 <?php
