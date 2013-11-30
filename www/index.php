@@ -5,7 +5,11 @@ include("include.php");
 top();
 ?>
 
-<div class="abscenter" style="height: 600px; width: 600px; border: solid 1px #c0c0c0; border-radius: 10px; padding: 0px 40px;">
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+
+<div style="background: #ffffff; border: solid 1px #c0c0c0; border-radius: 10px; padding: 0px 20px 20px 20px;">
 <center>
 
 <h1>The #ReformAct</h1>
@@ -35,9 +39,20 @@ make this website better and help spread the word to regular Canadians?
 Head over to <a href="https://github.com/kevinodotnet/reformactwww">the GitHub page</a> to contribute, or 
 <a href="mailto:kevino@kevino.net?Subject=ReformAct.ca">you can email me directly</a>.
 
-
 </center>
 </div>
+
+</div>
+
+<div class="col-md-4">
+<div style="background: #ffffff; border: solid 1px #c0c0c0; border-radius: 10px;">
+<a class="twitter-timeline" href="https://twitter.com/search?q=%23ReformAct" data-widget-id="406849771685416960">Tweets about "#ReformAct"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+</div>
+
+</div><!-- row -->
+</div><!-- container -->
 
 
 <!--
