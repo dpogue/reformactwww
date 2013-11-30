@@ -48,7 +48,7 @@ function shareButtons($text,$url) {
 </div>
 <div style="display: inline-block">
 <a class="twitter-share-button" href="https://twitter.com/share"
-  data-hashtags="reformact,cdnpoli"
+  data-hashtags="ReformAct,cdnpoli"
   data-via="TheReformAct"
   data-text="<?php print $text; ?>"
   data-url="<?php print $url; ?>"
