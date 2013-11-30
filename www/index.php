@@ -5,6 +5,8 @@ include("include.php");
 top();
 ?>
 
+<img src="/thumb.jpg"/>
+
 <div class="abscenter" style="height: 600px; width: 600px; border: solid 1px #c0c0c0; border-radius: 10px; padding: 0px 40px;">
 <center>
 
