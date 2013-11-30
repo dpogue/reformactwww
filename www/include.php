@@ -39,23 +39,31 @@ function bottom() {
   <?php
 }
 
-function shareButtons($text,$url) {
+function tweetButton($text,$url,$tags) {
 ?>
 <div style="display: inline-block">
-<div class="fb-like"
-  data-href="<?php print $url; ?>"
-  data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-</div>
-<div style="display: inline-block">
 <a class="twitter-share-button" href="https://twitter.com/share"
+  <?php if ($tags == 1) { ?>
   data-hashtags="ReformAct,cdnpoli"
   data-via="TheReformAct"
+  <?php } ?>
   data-text="<?php print $text; ?>"
   data-url="<?php print $url; ?>"
   data-lang="en">Tweet</a>
 </div>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <?php
+}
+
+function shareButtons($text,$url,$tags) {
+?>
+<div style="display: inline-block">
+<div class="fb-like"
+  data-href="<?php print $url; ?>"
+  data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+</div>
+<?php
+tweetButton($text,$url,$tags);
 }
 
 ?>

@@ -22,7 +22,7 @@ dedicated to seeing the bill get passed.</p>
 Read <a target="_blank" href="http://fullcomment.nationalpost.com/2013/11/29/andrew-coyne-reform-act-bill-would-change-canadas-parliament-forever/">Andrew Coyne's article about the Reform Act</a> to
 convince yourself the proposal has merit. Because it does.  Now share it with your friends:
 </p>
-<?php shareButtons("Coyne: Reform Act bill would change Canada's parliament forever","http://fullcomment.nationalpost.com/2013/11/29/andrew-coyne-reform-act-bill-would-change-canadas-parliament-forever/"); ?>
+<?php shareButtons("Coyne: Reform Act bill would change Canada's parliament forever","http://fullcomment.nationalpost.com/2013/11/29/andrew-coyne-reform-act-bill-would-change-canadas-parliament-forever/",1); ?>
 
 <h3>Step Two: Follow @TheReformAct</h3>
 <a href="https://twitter.com/TheReformAct" class="twitter-follow-button" 
@@ -31,7 +31,10 @@ convince yourself the proposal has merit. Because it does.  Now share it with yo
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 <h3>Step Three: Share this page!</h3>
-<?php shareButtons("I'm liking what I've heard about the Reform Act so far.","http://ReformAct.ca"); ?>
+<?php shareButtons("I'm liking what I've heard about the Reform Act so far.","http://ReformAct.ca",1); ?>
+
+<h3>Step Four: Tweet the Leaders</h3>
+<?php tweetButton(".@pmharper @JustinTrudeau @ElizabethMay @ThomasMulcair @claude_patry: please support the #ReformAct","http://ReformAct.ca/?tweetleaders",0); ?>
 
 <h3>Stay Tuned</h3>
 We'll have an "email your MP" or similar feature coming. Check back soon - particularly when the 
