@@ -33,6 +33,10 @@ convince yourself the proposal has merit. Because it does.  Now share it with yo
 <h3>Step Three: Share this page!</h3>
 <?php shareButtons("I'm liking what I've heard about the Reform Act so far.","http://ReformAct.ca"); ?>
 
+<h3>Stay Tuned</h3>
+We'll have an "email your MP" or similar feature coming. Check back soon - particularly when the 
+bill is tabled next week.
+
 <h3>Help-out</h3>
 This website could be so much better than my overnight solo effort. Think the Reform Act is important? Want to help 
 make this website better and help spread the word to regular Canadians?
