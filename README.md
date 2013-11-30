@@ -19,6 +19,15 @@ Are you a "partisan"
 
 Yes, but I don't let it get in the way of good ideas. The Reform Act is a good idea. Let's make it happen.
 
+Is this some elaborate hoax?
+============================
+
+No. I hatched this idea late on a Friday night after reading Coyne's piece on the bill.
+http://fullcomment.nationalpost.com/2013/11/29/andrew-coyne-reform-act-bill-would-change-canadas-parliament-forever/
+
+I decided if the bill has any hope of passing it's because a few tens of thousands of Canadians
+stood up and demanded. That needs a website. There wasn't one yet. So I'm just getting the ball rolling.
+
 What can I do?
 ==============
 
@@ -31,10 +40,19 @@ I can hack. What needs hacking?
 ===============================
 
 I'm thinking *the.reformact.ca* should be a sexy, single-page social media and "email the powers
-that be" jugernaught? With that in mind, the following help would be great:
+that be" jugernaught? A standard "education + action" page. One part inform people why the bill
+is good and why it could not get passed, another part email/phone/tweet/sms/hand-write-a-letter
+the MPs call to action?
+
+Ideas welcome. 
+
+I'm typing this all out quickly before posting to Reddit. How big this gets and
+how much momentum we can put behind the bill really depends on who else jumps on the bandwagon.
+
+With that in mind, the following help would be great:
 
 * single page scrolling page, CSS sexy as possible. (This scrolling resume)[http://www.rleonardi.com/interactive-resume/] is an interesting idea
-* bootstrap3 under the hood
+* bootstrap3 under the hood, or not (but it's already there).
 * social media share buttons and such
 
 Features
@@ -51,9 +69,9 @@ NON-Features
 * No database. I don't want to save any information. This website is not for harvesting
   contact info. It's just about getting the bill passed.
 
-Hosting
-=======
+Development and Hosting
+=======================
 
-I'll take care of hosting via an existing AWS EC2 server.
-
+A "git checkout" of the site is already hosted on Amazon EC2. I'll accept pull-requests (once I learn how - who 
+wants to 1-up me by sending the first one?) then push from github/master as often as needed.
 
