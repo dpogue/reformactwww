@@ -27,7 +27,7 @@ convince yourself the proposal has merit. Because it does.  Now share it with yo
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 <h3>Step Three: Share this page!</h3>
-<?php shareButtons("I'm liking what I've hear about the Reform Act so far.","http://ReformAct.ca"); ?>
+<?php shareButtons("I'm liking what I've heard about the Reform Act so far.","http://ReformAct.ca"); ?>
 
 <h3>Help-out</h3>
 This website could be so much better than my overnight solo effort. Think the Reform Act is important? Want to help 
