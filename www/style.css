@@ -51,8 +51,12 @@ body {
 }
 
 .to-top {
+    /*
     position: absolute;
     top: 15px;
+    */
+        float: right;
+        padding-top: 15px;
 }
 
 .twitter-timeline {
@@ -84,9 +88,11 @@ footer {
         display: block;
     }
 
+    /*
     .to-top {
         position: static;
         float: right;
         padding-top: 15px;
     }
+    */
 }
