@@ -92,6 +92,7 @@ $mps = json_decode(file_get_contents("mps.json"));
               }
               ?>
               <div class="col-md-4">
+              <p>
               <b><?php print $rand_mp->name; ?></b> (<?php print $rand_mp->province; ?>)</br>
               <?php print $rand_mp->riding; ?><br/>
               <?php print $tel; ?></b></br>
@@ -106,6 +107,7 @@ $mps = json_decode(file_get_contents("mps.json"));
                 <?php
               }
               ?>
+              </p>
               </div>
               <?php
             }
