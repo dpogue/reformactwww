@@ -43,7 +43,7 @@ body {
 }
 
 .page {
-    display: none;
+    display: block; /* KO: was none; */
 }
 .page.current {
     display: block;
