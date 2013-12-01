@@ -98,7 +98,7 @@ $mps = json_decode(file_get_contents("mps.json"));
               <a target="_blank" href="mailto:<?php print $rand_mp->email; ?>?Subject=Reform Act&Body=What are your thoughts on the proposed Reform Act?"><?php print $rand_mp->email; ?></a><br/>
               <?php
               if ($rand_mp->twitter != '') {
-                $default_text = ".I like what I've heard about @TheReformAct so far. What are your thoughts? #ReformAct #cdnpoli";
+                $default_text = "I like what I've heard about @TheReformAct so far. What are your thoughts? #ReformAct #cdnpoli";
                 $default_text = urlencode($default_text);
                 ?>
                 <a href="https://twitter.com/intent/tweet?screen_name=<?php print $rand_mp->twitter; ?>&text=<?php print $default_text; ?>" class="twitter-mention-button" data-related="@TheReformAct"
