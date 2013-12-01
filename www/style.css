@@ -43,7 +43,8 @@ body {
 }
 
 .page {
-    display: block; /* KO: was none; */
+    /* KO: was 'none' to hide pages on mobile until chosen; my old Android phone didn't work though, so back to block */
+    display: block;
 }
 .page.current {
     display: block;
