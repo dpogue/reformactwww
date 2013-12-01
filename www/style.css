@@ -1,10 +1,91 @@
+/** BOOTSTRAP OVERRIDES **/
 body {
   background: #f0f0f0;
-  padding: 20px;
-}
-.abscenter {
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
 }
 
+.jumbotron {
+    background: white;
+}
+
+.btn-primary {
+    /* We want red CTA buttons, but we'll keep the name "primary" */
+    background-color: rgb(217, 83, 79);
+    border-color: rgb(212, 63, 58);
+}
+
+.page-header {
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+
+/** SITE STYLES **/
+
+.nav-primary {
+    margin-top: 20px;
+}
+
+.nav-primary .btn {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-primary .btn:after {
+    content: '\00BB \00A0 \00A0 \00A0 ';
+    display: inline;
+    float: right;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.nav-primary .btn .fa {
+    display: none;
+}
+
+.page {
+    display: none;
+}
+.page.current {
+    display: block;
+}
+
+.to-top {
+    position: absolute;
+    top: 15px;
+}
+
+.twitter-timeline {
+    display: block;
+    margin: 0 auto;
+}
+
+.share-buttons {
+    display: inline-block;
+}
+
+footer {
+    margin-top: 50px;
+    border-top: 1px solid #dadada;
+}
+
+@media (min-width: 768px) {
+    .nav-primary .btn:after {
+        display: none;
+    }
+
+    .nav-primary .btn .fa {
+        display: block;
+        font-size: 64px;
+        margin-bottom: 20px;
+    }
+
+    .page {
+        display: block;
+    }
+
+    .to-top {
+        position: static;
+        float: right;
+        padding-top: 15px;
+    }
+}
