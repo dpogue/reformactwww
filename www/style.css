@@ -43,20 +43,16 @@ body {
 }
 
 .page {
-    /* KO: was 'none' to hide pages on mobile until chosen; my old Android phone didn't work though, so back to block */
-    display: block;
+    display: none;
 }
+
 .page.current {
     display: block;
 }
 
 .to-top {
-    /*
     position: absolute;
     top: 15px;
-    */
-        float: right;
-        padding-top: 15px;
 }
 
 .twitter-timeline {
@@ -88,11 +84,9 @@ footer {
         display: block;
     }
 
-    /*
     .to-top {
         position: static;
         float: right;
         padding-top: 15px;
     }
-    */
 }

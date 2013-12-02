@@ -235,10 +235,10 @@ $mps = json_decode(file_get_contents("mps.json"));
                 }
 
                 if (el) {
-                    el.classList.add('current');
+                    el.className += ' current';
 
                     if (current_page != el) {
-                        current_page.classList.remove('current');
+                        current_page.className = current_page.className.replace(/ current/g,'');
                     }
 
                     current_page = el;
@@ -267,12 +267,18 @@ $mps = json_decode(file_get_contents("mps.json"));
                 load('//www.google-analytics.com/analytics.js', 'ganalytics');
             }
 
-            window.addEventListener('load', function() {
+            function load_handler() {
                 initMedia(document, window, 'script');
 
                 ga('create', 'UA-6324294-27', 'ReformAct.ca');
                 ga('send', 'pageview');
-            }, true);
+            }
+
+            if (!window.addEventListener) {
+                window.attachEvent('onload', load_handler);
+            } else {
+                window.addEventListener('load', load_handler, false);
+            }
         </script>
     </body>
 </html>
