@@ -25,28 +25,28 @@ $mps = json_decode(file_get_contents("mps.json"));
             </p>
 
             <div class="row nav-primary">
-                <div class="col-sm-4">
+                <div class="col-sm-6 col-lg-3">
                     <a href="#about" class="btn btn-block btn-primary">
                         <i class="fa fa-question-circle"></i>
                         Learn more about the act
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-6 col-lg-3">
                     <a href="#action" class="btn btn-block btn-primary">
-                        <i class="fa fa-question-circle"></i>
+                        <i class="fa fa-comment fa-flip-horizontal"></i>
                         Contact a Member of Parliament
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-6 col-lg-3">
                     <a href="#conversation" class="btn btn-block btn-primary">
                         <i class="fa fa-comments-o"></i>
                         Join the conversation
                     </a>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-6 col-lg-3">
                     <a href="#spread" class="btn btn-block btn-primary">
                         <i class="fa fa-bullhorn"></i>
                         Spread the word
@@ -129,19 +129,22 @@ $mps = json_decode(file_get_contents("mps.json"));
 
                     <p>
                         For news related to The Reform Act, you can find us on Twitter:
+                        <br>
                         <a href="https://twitter.com/TheReformAct" class="twitter-follow-button"
-                          data-show-count="false"
+                          data-show-count="true"
+                          data-size="large"
                           data-lang="en">@TheReformAct</a>
                     </p>
                     <p>
-                        <a href="https://www.facebook.com/TheReformAct">and on Facebook</a>:
-                        <div class="fb-like"
-                            data-href="https://www.facebook.com/TheReformAct"
-                            data-layout="box_count"
-                            data-action="like"
-                            data-show-faces="false"
-                            data-share="false"></div>
+                        You can also find us on Facebook:
                     </p>
+                    <div class="fb-like-box"
+                        data-href="http://www.facebook.com/TheReformAct"
+                        data-colorscheme="light"
+                        data-show-faces="false"
+                        data-header="false"
+                        data-stream="false"
+                        data-show-border="false"></div>
                 </div>
 
                 <div class="col-md-6">
