@@ -66,7 +66,7 @@ $mps = json_decode(file_get_contents("mps.json"));
                 <a href="http://fullcomment.nationalpost.com/2013/11/29/andrew-coyne-reform-act-bill-would-change-canadas-parliament-forever/" target="_blank">
                     Andrew Coyne's article
                 </a>
-                about The Reform Act. The bill will be tabled on Thursday December 5th.
+                about The Reform Act. The bill will be tabled on Tuesday, December 3rd around 10:00 AM EST.
             </p>
         </section>
 
